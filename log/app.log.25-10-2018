@@ -1,0 +1,357 @@
+{"level":"info","message":"Server started -  3001","timestamp":"2018-10-25T02:20:57.797Z"}
+{"level":"error","message":"Could not connect to MongoDB","timestamp":"2018-10-25T02:20:57.811Z"}
+{"level":"info","message":"Server started -  3001","timestamp":"2018-10-25T02:21:03.234Z"}
+{"level":"error","message":"Could not connect to MongoDB","timestamp":"2018-10-25T02:21:03.248Z"}
+{"level":"info","message":"Server started -  3001","timestamp":"2018-10-25T02:21:25.602Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2018-10-25T02:21:25.625Z"}
+{"level":"info","message":"Server started -  3001","timestamp":"2018-10-25T02:23:19.708Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2018-10-25T02:23:19.720Z"}
+{"level":"info","message":"Server started -  3001","timestamp":"2018-10-25T02:23:28.401Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2018-10-25T02:23:28.414Z"}
+{"level":"info","message":"Server started -  3001","timestamp":"2018-10-25T02:25:06.745Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2018-10-25T02:25:06.757Z"}
+{"level":"info","message":"Server started -  3001","timestamp":"2018-10-25T02:25:26.014Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2018-10-25T02:25:26.026Z"}
+{"level":"info","message":"Server started -  3001","timestamp":"2018-10-25T02:26:06.414Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2018-10-25T02:26:06.426Z"}
+{"level":"info","message":"Server started -  3001","timestamp":"2018-10-25T02:26:18.951Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2018-10-25T02:26:18.968Z"}
+{"level":"info","message":"Server started -  3001","timestamp":"2018-10-25T02:26:40.998Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2018-10-25T02:26:41.020Z"}
+{"level":"info","message":"Server started -  3001","timestamp":"2018-10-25T02:27:14.117Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2018-10-25T02:27:14.130Z"}
+{"level":"info","message":"Server started -  3001","timestamp":"2018-10-25T02:27:21.346Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2018-10-25T02:27:21.364Z"}
+{"level":"info","message":"Server started -  3001","timestamp":"2018-10-25T02:28:41.848Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2018-10-25T02:28:41.860Z"}
+{"level":"info","message":"Server started -  3001","timestamp":"2018-10-25T02:29:29.499Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2018-10-25T02:29:29.515Z"}
+{"level":"info","message":"Server started -  3001","timestamp":"2018-10-25T02:30:09.683Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2018-10-25T02:30:09.696Z"}
+{"level":"info","message":"\u001b[0mGET /index \u001b[32m200 \u001b[0m3.188 ms - 2\u001b[0m\n","timestamp":"2018-10-25T02:30:17.602Z"}
+{"level":"info","message":"\u001b[0mGET /favicon.ico \u001b[33m404 \u001b[0m1.327 ms - 24\u001b[0m\n","timestamp":"2018-10-25T02:30:17.956Z"}
+{"level":"info","message":"Server started :  3001","timestamp":"2018-10-25T02:35:05.239Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2018-10-25T02:35:05.252Z"}
+{"level":"info","message":"Server started :  3001","timestamp":"2018-10-25T02:47:44.114Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2018-10-25T02:47:44.127Z"}
+{"level":"info","message":"Server started :  3001","timestamp":"2018-10-25T02:48:14.338Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2018-10-25T02:48:14.358Z"}
+{"level":"info","message":"Server started :  3001","timestamp":"2018-10-25T02:50:39.114Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2018-10-25T02:50:39.127Z"}
+{"level":"info","message":"Server started :  3001","timestamp":"2018-10-25T02:51:37.874Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2018-10-25T02:51:37.887Z"}
+{"level":"info","message":"Server started :  3001","timestamp":"2018-10-25T02:55:52.447Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2018-10-25T02:55:52.459Z"}
+{"level":"info","message":"Server started :  3001","timestamp":"2018-10-25T02:57:56.271Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2018-10-25T02:57:56.284Z"}
+{"level":"info","message":"Server started :  3001","timestamp":"2018-10-25T02:59:05.669Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2018-10-25T02:59:05.684Z"}
+{"level":"info","message":"Server started :  3001","timestamp":"2018-10-25T03:00:01.831Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2018-10-25T03:00:01.843Z"}
+{"level":"info","message":"Server started :  3001","timestamp":"2018-10-25T03:01:23.922Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2018-10-25T03:01:23.934Z"}
+{"level":"info","message":"Server started :  3001","timestamp":"2018-10-25T04:11:46.509Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2018-10-25T04:11:46.522Z"}
+{"level":"info","message":"Server started :  3001","timestamp":"2018-10-25T04:14:09.471Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2018-10-25T04:14:09.483Z"}
+{"level":"info","message":"Server started :  3001","timestamp":"2018-10-25T04:15:32.888Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2018-10-25T04:15:32.903Z"}
+{"level":"info","message":"Server started :  3001","timestamp":"2018-10-25T04:19:48.766Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2018-10-25T04:19:48.781Z"}
+{"level":"info","message":"Server started :  3001","timestamp":"2018-10-25T04:20:18.952Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2018-10-25T04:20:18.968Z"}
+{"level":"info","message":"Server started :  3001","timestamp":"2018-10-25T04:21:21.878Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2018-10-25T04:21:21.896Z"}
+{"level":"info","message":"Server started :  3001","timestamp":"2018-10-25T04:21:59.600Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2018-10-25T04:21:59.615Z"}
+{"level":"info","message":"Server started :  3001","timestamp":"2018-10-25T04:22:09.219Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2018-10-25T04:22:09.235Z"}
+{"level":"info","message":"Server started :  3001","timestamp":"2018-10-25T04:22:54.397Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2018-10-25T04:22:54.415Z"}
+{"level":"info","message":"Server started :  3001","timestamp":"2018-10-25T04:26:18.576Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2018-10-25T04:26:18.588Z"}
+{"level":"info","message":"Server started :  3001","timestamp":"2018-10-25T04:26:20.402Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2018-10-25T04:26:20.416Z"}
+{"level":"info","message":"Server started :  3001","timestamp":"2018-10-25T04:26:25.525Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2018-10-25T04:26:25.541Z"}
+{"level":"info","message":"Server started :  3001","timestamp":"2018-10-25T04:28:27.702Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2018-10-25T04:28:27.715Z"}
+{"level":"info","message":"Server started :  3001","timestamp":"2018-10-25T04:36:23.304Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2018-10-25T04:36:23.317Z"}
+{"level":"info","message":"Server started :  3001","timestamp":"2018-10-25T04:37:50.340Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2018-10-25T04:37:50.353Z"}
+{"level":"info","message":"Server started :  3001","timestamp":"2018-10-25T04:39:09.584Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2018-10-25T04:39:09.596Z"}
+{"level":"info","message":"Server started :  3001","timestamp":"2018-10-25T04:39:23.641Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2018-10-25T04:39:23.655Z"}
+{"level":"info","message":"Server started :  3001","timestamp":"2018-10-25T04:39:56.787Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2018-10-25T04:39:56.807Z"}
+{"level":"info","message":"Server started :  3001","timestamp":"2018-10-25T04:40:01.881Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2018-10-25T04:40:01.893Z"}
+{"level":"info","message":"Server started :  3001","timestamp":"2018-10-25T04:41:43.573Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2018-10-25T04:41:43.587Z"}
+{"level":"info","message":"Server started :  3001","timestamp":"2018-10-25T04:44:20.034Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2018-10-25T04:44:20.047Z"}
+{"level":"info","message":"Server started :  3001","timestamp":"2018-10-25T06:57:38.447Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2018-10-25T06:57:38.459Z"}
+{"level":"info","message":"Server started :  3001","timestamp":"2018-10-25T07:01:39.013Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2018-10-25T07:01:39.025Z"}
+{"level":"info","message":"Server started :  3001","timestamp":"2018-10-25T07:02:43.028Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2018-10-25T07:02:43.040Z"}
+{"level":"info","message":"Server started :  3001","timestamp":"2018-10-25T07:20:24.519Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2018-10-25T07:20:24.536Z"}
+{"level":"info","message":"Server started :  3001","timestamp":"2018-10-25T07:20:25.963Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2018-10-25T07:20:25.978Z"}
+{"level":"info","message":"\u001b[0mPOST /contents/test \u001b[31m500 \u001b[0m17.476 ms - 1198\u001b[0m\n","timestamp":"2018-10-25T07:20:55.112Z"}
+{"level":"info","message":"Server started :  3001","timestamp":"2018-10-25T07:21:38.598Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2018-10-25T07:21:38.613Z"}
+{"level":"info","message":"\u001b[0mPOST /contents/test \u001b[32m200 \u001b[0m18.018 ms - 22\u001b[0m\n","timestamp":"2018-10-25T07:21:46.945Z"}
+{"level":"info","message":"Server started :  3001","timestamp":"2018-10-25T07:22:19.047Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2018-10-25T07:22:19.059Z"}
+{"level":"info","message":"Server started :  3001","timestamp":"2018-10-25T07:22:58.290Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2018-10-25T07:22:58.304Z"}
+{"level":"info","message":"\u001b[0mPOST /contents/test \u001b[32m200 \u001b[0m17.766 ms - 22\u001b[0m\n","timestamp":"2018-10-25T07:23:12.441Z"}
+{"level":"info","message":"Server started :  3001","timestamp":"2018-10-25T07:23:50.473Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2018-10-25T07:23:50.488Z"}
+{"level":"info","message":"Server started :  3001","timestamp":"2018-10-25T07:24:58.600Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2018-10-25T07:24:58.613Z"}
+{"level":"info","message":"Server started :  3001","timestamp":"2018-10-25T07:25:11.376Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2018-10-25T07:25:11.391Z"}
+{"level":"info","message":"\u001b[0mPOST /contents/test \u001b[32m200 \u001b[0m16.070 ms - 25\u001b[0m\n","timestamp":"2018-10-25T07:25:19.252Z"}
+{"level":"info","message":"Server started :  3001","timestamp":"2018-10-25T07:30:43.652Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2018-10-25T07:30:43.664Z"}
+{"level":"info","message":"Server started :  3001","timestamp":"2018-10-25T07:30:50.345Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2018-10-25T07:30:50.358Z"}
+{"level":"info","message":"\u001b[0mPOST /contents/test \u001b[32m200 \u001b[0m18.430 ms - 4\u001b[0m\n","timestamp":"2018-10-25T07:31:02.190Z"}
+{"level":"info","message":"Server started :  3001","timestamp":"2018-10-25T07:31:15.595Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2018-10-25T07:31:15.610Z"}
+{"level":"info","message":"\u001b[0mPOST /contents/test \u001b[32m200 \u001b[0m17.079 ms - 4\u001b[0m\n","timestamp":"2018-10-25T07:31:20.692Z"}
+{"level":"info","message":"Server started :  3001","timestamp":"2018-10-25T07:31:45.099Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2018-10-25T07:31:45.111Z"}
+{"level":"info","message":"Server started :  3001","timestamp":"2018-10-25T07:31:56.109Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2018-10-25T07:31:56.122Z"}
+{"level":"info","message":"Server started :  3001","timestamp":"2018-10-25T07:32:00.717Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2018-10-25T07:32:00.729Z"}
+{"level":"info","message":"Server started :  3001","timestamp":"2018-10-25T07:32:11.741Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2018-10-25T07:32:11.753Z"}
+{"level":"info","message":"Server started :  3001","timestamp":"2018-10-25T07:33:45.145Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2018-10-25T07:33:45.158Z"}
+{"level":"info","message":"Server started :  3001","timestamp":"2018-10-25T07:35:57.233Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2018-10-25T07:35:57.247Z"}
+{"level":"info","message":"Server started :  3001","timestamp":"2018-10-25T07:38:24.556Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2018-10-25T07:38:24.569Z"}
+{"level":"info","message":"Server started :  3001","timestamp":"2018-10-25T07:39:07.014Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2018-10-25T07:39:07.034Z"}
+{"level":"info","message":"Server started :  3001","timestamp":"2018-10-25T07:42:37.053Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2018-10-25T07:42:37.066Z"}
+{"level":"info","message":"Server started :  3001","timestamp":"2018-10-25T07:43:04.069Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2018-10-25T07:43:04.082Z"}
+{"level":"info","message":"\u001b[0mPOST /contents/clip \u001b[31m500 \u001b[0m15.353 ms - 2049\u001b[0m\n","timestamp":"2018-10-25T07:47:26.219Z"}
+{"level":"info","message":"Server started :  3001","timestamp":"2018-10-25T07:47:53.370Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2018-10-25T07:47:53.383Z"}
+{"level":"info","message":"Server started :  3001","timestamp":"2018-10-25T07:48:51.941Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2018-10-25T07:48:51.954Z"}
+{"level":"info","message":"Server started :  3001","timestamp":"2018-10-25T07:49:45.294Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2018-10-25T07:49:45.307Z"}
+{"level":"info","message":"Server started :  3001","timestamp":"2018-10-25T07:50:51.091Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2018-10-25T07:50:51.103Z"}
+{"level":"info","message":"Server started :  3001","timestamp":"2018-10-25T07:51:37.561Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2018-10-25T07:51:37.573Z"}
+{"level":"info","message":"\u001b[0mPOST /contents/clip \u001b[0m- \u001b[0m- ms - -\u001b[0m\n","timestamp":"2018-10-25T07:53:42.017Z"}
+{"level":"info","message":"\u001b[0mPOST /contents/clip \u001b[0m- \u001b[0m- ms - -\u001b[0m\n","timestamp":"2018-10-25T07:55:42.021Z"}
+{"level":"info","message":"Server started :  3001","timestamp":"2018-10-25T07:56:29.638Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2018-10-25T07:56:29.650Z"}
+{"level":"info","message":"Server started :  3001","timestamp":"2018-10-25T07:56:31.217Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2018-10-25T07:56:31.229Z"}
+{"level":"info","message":"Server started :  3001","timestamp":"2018-10-25T07:57:34.276Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2018-10-25T07:57:34.288Z"}
+{"level":"info","message":"Server started :  3001","timestamp":"2018-10-25T07:58:29.918Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2018-10-25T07:58:29.930Z"}
+{"level":"info","message":"Server started :  3001","timestamp":"2018-10-25T08:00:02.104Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2018-10-25T08:00:02.119Z"}
+{"level":"info","message":"\u001b[0mPOST /contents/clip \u001b[0m- \u001b[0m- ms - -\u001b[0m\n","timestamp":"2018-10-25T08:02:07.769Z"}
+{"level":"info","message":"Server started :  3001","timestamp":"2018-10-25T08:05:39.768Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2018-10-25T08:05:39.780Z"}
+{"level":"info","message":"\u001b[0mPOST /contents/clip \u001b[0m- \u001b[0m- ms - -\u001b[0m\n","timestamp":"2018-10-25T08:06:22.833Z"}
+{"level":"info","message":"Server started :  3001","timestamp":"2018-10-25T08:07:02.769Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2018-10-25T08:07:02.787Z"}
+{"level":"info","message":"Server started :  3001","timestamp":"2018-10-25T08:07:05.093Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2018-10-25T08:07:05.106Z"}
+{"level":"info","message":"\u001b[0mPOST /contents/clip \u001b[0m- \u001b[0m- ms - -\u001b[0m\n","timestamp":"2018-10-25T08:09:48.749Z"}
+{"level":"info","message":"Server started :  3001","timestamp":"2018-10-25T08:11:14.413Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2018-10-25T08:11:14.427Z"}
+{"level":"info","message":"\u001b[0mPOST /contents/clip \u001b[0m- \u001b[0m- ms - -\u001b[0m\n","timestamp":"2018-10-25T08:13:27.643Z"}
+{"level":"info","message":"Server started :  3001","timestamp":"2018-10-25T08:14:03.649Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2018-10-25T08:14:03.662Z"}
+{"level":"info","message":"Server started :  3001","timestamp":"2018-10-25T08:14:36.842Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2018-10-25T08:14:36.856Z"}
+{"level":"info","message":"Server started :  3001","timestamp":"2018-10-25T08:15:10.050Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2018-10-25T08:15:10.068Z"}
+{"level":"info","message":"Server started :  3001","timestamp":"2018-10-25T08:15:17.627Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2018-10-25T08:15:17.643Z"}
+{"level":"info","message":"Server started :  3001","timestamp":"2018-10-25T08:15:31.698Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2018-10-25T08:15:31.714Z"}
+{"level":"info","message":"Server started :  3001","timestamp":"2018-10-25T08:15:41.912Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2018-10-25T08:15:41.926Z"}
+{"level":"info","message":"Server started :  3001","timestamp":"2018-10-25T08:16:21.932Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2018-10-25T08:16:21.947Z"}
+{"level":"info","message":"Server started :  3001","timestamp":"2018-10-25T08:16:54.060Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2018-10-25T08:16:54.074Z"}
+{"level":"info","message":"Adding content data ...","timestamp":"2018-10-25T08:16:55.796Z"}
+{"level":"info","message":"\u001b[0mPOST /contents/clip \u001b[32m200 \u001b[0m37.854 ms - 525\u001b[0m\n","timestamp":"2018-10-25T08:16:55.801Z"}
+{"level":"info","message":"Adding content data ...","timestamp":"2018-10-25T08:20:00.348Z"}
+{"level":"info","message":"\u001b[0mPOST /contents/clip \u001b[32m200 \u001b[0m26.554 ms - 525\u001b[0m\n","timestamp":"2018-10-25T08:20:00.350Z"}
+{"level":"info","message":"Adding content data ...","timestamp":"2018-10-25T08:20:25.189Z"}
+{"level":"info","message":"\u001b[0mPOST /contents/clip \u001b[32m200 \u001b[0m10.395 ms - 475\u001b[0m\n","timestamp":"2018-10-25T08:20:25.190Z"}
+{"level":"info","message":"Server started :  3001","timestamp":"2018-10-25T08:21:25.996Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2018-10-25T08:21:26.009Z"}
+{"level":"info","message":"Server started :  3001","timestamp":"2018-10-25T08:21:44.280Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2018-10-25T08:21:44.292Z"}
+{"level":"info","message":"Server started :  3001","timestamp":"2018-10-25T08:22:11.530Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2018-10-25T08:22:11.548Z"}
+{"level":"info","message":"Adding content data ...","timestamp":"2018-10-25T08:22:30.879Z"}
+{"level":"info","message":"\u001b[0mPOST /contents/clip \u001b[32m200 \u001b[0m41.786 ms - 504\u001b[0m\n","timestamp":"2018-10-25T08:22:30.884Z"}
+{"level":"info","message":"Adding content data ...","timestamp":"2018-10-25T08:23:39.397Z"}
+{"level":"info","message":"\u001b[0mPOST /contents/clip \u001b[32m200 \u001b[0m9.460 ms - 498\u001b[0m\n","timestamp":"2018-10-25T08:23:39.398Z"}
+{"level":"info","message":"Server started :  3001","timestamp":"2018-10-25T08:25:05.158Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2018-10-25T08:25:05.172Z"}
+{"level":"info","message":"Server started :  3001","timestamp":"2018-10-25T08:25:21.351Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2018-10-25T08:25:21.367Z"}
+{"level":"info","message":"Server started :  3001","timestamp":"2018-10-25T08:26:26.888Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2018-10-25T08:26:26.901Z"}
+{"level":"info","message":"Server started :  3001","timestamp":"2018-10-25T08:28:44.334Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2018-10-25T08:28:44.349Z"}
+{"level":"info","message":"Server started :  3001","timestamp":"2018-10-25T08:30:52.732Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2018-10-25T08:30:52.752Z"}
+{"level":"info","message":"Server started :  3001","timestamp":"2018-10-25T08:33:46.361Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2018-10-25T08:33:46.377Z"}
+{"level":"info","message":"Server started :  3001","timestamp":"2018-10-25T08:42:42.384Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2018-10-25T08:42:42.398Z"}
+{"level":"info","message":"Server started :  3001","timestamp":"2018-10-25T08:48:51.377Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2018-10-25T08:48:51.390Z"}
+{"level":"info","message":"Server started :  3001","timestamp":"2018-10-25T08:50:53.184Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2018-10-25T08:50:53.198Z"}
+{"level":"info","message":"Deleting content...","timestamp":"2018-10-25T08:52:22.224Z"}
+{"level":"info","message":"\u001b[0mPOST /contents/clipdel \u001b[32m200 \u001b[0m8.984 ms - 50\u001b[0m\n","timestamp":"2018-10-25T08:52:22.229Z"}
+{"level":"info","message":"Adding content data ...","timestamp":"2018-10-25T08:53:06.724Z"}
+{"level":"info","message":"\u001b[0mPOST /contents/clip \u001b[32m200 \u001b[0m36.851 ms - 499\u001b[0m\n","timestamp":"2018-10-25T08:53:06.726Z"}
+{"level":"info","message":"Adding content data ...","timestamp":"2018-10-25T08:53:09.831Z"}
+{"level":"info","message":"\u001b[0mPOST /contents/clip \u001b[32m200 \u001b[0m9.484 ms - 499\u001b[0m\n","timestamp":"2018-10-25T08:53:09.832Z"}
+{"level":"info","message":"Adding content data ...","timestamp":"2018-10-25T08:53:12.047Z"}
+{"level":"info","message":"\u001b[0mPOST /contents/clip \u001b[32m200 \u001b[0m10.818 ms - 499\u001b[0m\n","timestamp":"2018-10-25T08:53:12.048Z"}
+{"level":"info","message":"Adding content data ...","timestamp":"2018-10-25T08:53:14.275Z"}
+{"level":"info","message":"\u001b[0mPOST /contents/clip \u001b[32m200 \u001b[0m7.261 ms - 499\u001b[0m\n","timestamp":"2018-10-25T08:53:14.275Z"}
+{"level":"info","message":"Adding content data ...","timestamp":"2018-10-25T08:53:16.782Z"}
+{"level":"info","message":"\u001b[0mPOST /contents/clip \u001b[32m200 \u001b[0m8.284 ms - 499\u001b[0m\n","timestamp":"2018-10-25T08:53:16.782Z"}
+{"level":"info","message":"Server started :  3001","timestamp":"2018-10-25T08:55:01.405Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2018-10-25T08:55:01.418Z"}
+{"level":"info","message":"All clip list","timestamp":"2018-10-25T08:55:23.345Z"}
+{"level":"info","message":"\u001b[0mGET /contents/clips \u001b[32m200 \u001b[0m20.408 ms - 2352\u001b[0m\n","timestamp":"2018-10-25T08:55:23.351Z"}
+{"level":"info","message":"Adding content data ...","timestamp":"2018-10-25T08:56:14.227Z"}
+{"level":"info","message":"\u001b[0mPOST /contents/clip \u001b[32m200 \u001b[0m33.861 ms - 498\u001b[0m\n","timestamp":"2018-10-25T08:56:14.228Z"}
+{"level":"info","message":"Adding content data ...","timestamp":"2018-10-25T08:56:17.010Z"}
+{"level":"info","message":"\u001b[0mPOST /contents/clip \u001b[32m200 \u001b[0m10.635 ms - 498\u001b[0m\n","timestamp":"2018-10-25T08:56:17.012Z"}
+{"level":"info","message":"Adding content data ...","timestamp":"2018-10-25T08:56:19.639Z"}
+{"level":"info","message":"\u001b[0mPOST /contents/clip \u001b[32m200 \u001b[0m9.668 ms - 498\u001b[0m\n","timestamp":"2018-10-25T08:56:19.640Z"}
+{"level":"info","message":"Adding content data ...","timestamp":"2018-10-25T08:56:22.203Z"}
+{"level":"info","message":"\u001b[0mPOST /contents/clip \u001b[32m200 \u001b[0m8.310 ms - 498\u001b[0m\n","timestamp":"2018-10-25T08:56:22.204Z"}
+{"level":"info","message":"Server started :  3001","timestamp":"2018-10-25T08:57:50.842Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2018-10-25T08:57:50.855Z"}
+{"level":"info","message":"Server started :  3001","timestamp":"2018-10-25T08:58:44.343Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2018-10-25T08:58:44.356Z"}
+{"level":"info","message":"Server started :  3001","timestamp":"2018-10-25T08:59:39.599Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2018-10-25T08:59:39.615Z"}
+{"level":"info","message":"Server started :  3001","timestamp":"2018-10-25T08:59:42.773Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2018-10-25T08:59:42.787Z"}
+{"level":"info","message":"Free clip list","timestamp":"2018-10-25T09:00:01.756Z"}
+{"level":"info","message":"\u001b[0mGET /contents/clipfree \u001b[32m200 \u001b[0m29.247 ms - 1888\u001b[0m\n","timestamp":"2018-10-25T09:00:01.764Z"}
+{"level":"info","message":"Server started :  3001","timestamp":"2018-10-25T09:00:43.182Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2018-10-25T09:00:43.195Z"}
+{"level":"info","message":"Server started :  3001","timestamp":"2018-10-25T09:00:57.540Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2018-10-25T09:00:57.562Z"}
+{"level":"info","message":"Server started :  3001","timestamp":"2018-10-25T09:01:13.160Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2018-10-25T09:01:13.176Z"}
+{"level":"info","message":"Server started :  3001","timestamp":"2018-10-25T09:01:48.820Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2018-10-25T09:01:48.834Z"}
+{"level":"info","message":"Server started :  3001","timestamp":"2018-10-25T09:03:46.484Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2018-10-25T09:03:46.498Z"}
+{"level":"info","message":"Server started :  3001","timestamp":"2018-10-25T09:03:53.891Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2018-10-25T09:03:53.908Z"}
+{"level":"info","message":"Free clip list","timestamp":"2018-10-25T09:04:03.103Z"}
+{"level":"info","message":"\u001b[0mGET /contents/clipcharge \u001b[32m200 \u001b[0m21.416 ms - 2358\u001b[0m\n","timestamp":"2018-10-25T09:04:03.109Z"}
+{"level":"info","message":"Server started :  3001","timestamp":"2018-10-25T09:04:21.592Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2018-10-25T09:04:21.606Z"}
+{"level":"info","message":"Server started :  3001","timestamp":"2018-10-25T09:04:53.951Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2018-10-25T09:04:53.966Z"}
+{"level":"info","message":"Server started :  3001","timestamp":"2018-10-25T09:05:27.761Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2018-10-25T09:05:27.775Z"}
+{"level":"info","message":"Server started :  3001","timestamp":"2018-10-25T09:05:59.763Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2018-10-25T09:05:59.786Z"}
+{"level":"info","message":"Server started :  3001","timestamp":"2018-10-25T09:06:15.280Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2018-10-25T09:06:15.293Z"}
+{"level":"info","message":"Server started :  3001","timestamp":"2018-10-25T09:07:26.328Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2018-10-25T09:07:26.343Z"}
+{"level":"info","message":"Server started :  3001","timestamp":"2018-10-25T09:07:55.185Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2018-10-25T09:07:55.198Z"}
+{"level":"info","message":"Server started :  3001","timestamp":"2018-10-25T09:08:14.131Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2018-10-25T09:08:14.144Z"}
+{"level":"info","message":"Server started :  3001","timestamp":"2018-10-25T09:09:45.934Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2018-10-25T09:09:45.949Z"}
+{"level":"info","message":"Server started :  3001","timestamp":"2018-10-25T09:12:01.808Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2018-10-25T09:12:01.822Z"}
+{"level":"info","message":"Server started :  3001","timestamp":"2018-10-25T09:12:45.519Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2018-10-25T09:12:45.535Z"}
+{"level":"info","message":"Server started :  3001","timestamp":"2018-10-25T09:13:20.984Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2018-10-25T09:13:20.997Z"}
+{"level":"info","message":"Server started :  3001","timestamp":"2018-10-25T09:15:09.839Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2018-10-25T09:15:09.852Z"}
+{"level":"info","message":"Server started :  3001","timestamp":"2018-10-25T09:15:11.782Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2018-10-25T09:15:11.796Z"}
+{"level":"info","message":"Server started :  3001","timestamp":"2018-10-25T09:16:53.840Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2018-10-25T09:16:53.856Z"}
+{"level":"info","message":"Server started :  3001","timestamp":"2018-10-25T09:17:24.409Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2018-10-25T09:17:24.426Z"}
+{"level":"info","message":"Server started :  3001","timestamp":"2018-10-25T09:17:40.037Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2018-10-25T09:17:40.051Z"}
+{"level":"info","message":"Server started :  3001","timestamp":"2018-10-25T09:18:42.506Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2018-10-25T09:18:42.526Z"}
+{"level":"info","message":"Server started :  3001","timestamp":"2018-10-25T09:19:27.469Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2018-10-25T09:19:27.482Z"}
+{"level":"info","message":"Server started :  3001","timestamp":"2018-10-25T09:21:39.768Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2018-10-25T09:21:39.781Z"}
+{"level":"info","message":"Server started :  3001","timestamp":"2018-10-25T09:24:09.311Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2018-10-25T09:24:09.324Z"}
+{"level":"info","message":"Server started :  3001","timestamp":"2018-10-25T09:24:19.022Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2018-10-25T09:24:19.036Z"}
+{"level":"info","message":"Server started :  3001","timestamp":"2018-10-25T09:25:22.084Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2018-10-25T09:25:22.098Z"}
+{"level":"info","message":"Server started :  3001","timestamp":"2018-10-25T09:25:55.480Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2018-10-25T09:25:55.504Z"}
+{"level":"info","message":"Server started :  3001","timestamp":"2018-10-25T09:26:05.227Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2018-10-25T09:26:05.240Z"}
+{"level":"info","message":"Server started :  3001","timestamp":"2018-10-25T09:26:33.015Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2018-10-25T09:26:33.028Z"}
+{"level":"info","message":"Server started :  3001","timestamp":"2018-10-25T09:28:36.732Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2018-10-25T09:28:36.744Z"}
+{"level":"info","message":"Editing content...","timestamp":"2018-10-25T09:35:03.504Z"}
+{"level":"info","message":"\u001b[0mPOST /contents/clipedit \u001b[32m200 \u001b[0m13.731 ms - 65\u001b[0m\n","timestamp":"2018-10-25T09:35:03.508Z"}
+{"level":"info","message":"Server started :  3001","timestamp":"2018-10-25T09:37:16.717Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2018-10-25T09:37:16.734Z"}
+{"level":"info","message":"Server started :  3001","timestamp":"2018-10-25T09:40:09.138Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2018-10-25T09:40:09.153Z"}
+{"level":"info","message":"Server started :  3001","timestamp":"2018-10-25T09:40:56.742Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2018-10-25T09:40:56.755Z"}
+{"level":"info","message":"Server started :  3001","timestamp":"2018-10-25T09:43:29.388Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2018-10-25T09:43:29.404Z"}
+{"level":"info","message":"Server started :  3001","timestamp":"2018-10-25T09:43:40.582Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2018-10-25T09:43:40.596Z"}
+{"level":"info","message":"Server started :  3001","timestamp":"2018-10-25T09:45:06.450Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2018-10-25T09:45:06.463Z"}
+{"level":"info","message":"Server started :  3001","timestamp":"2018-10-25T09:47:27.871Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2018-10-25T09:47:27.884Z"}
+{"level":"info","message":"Server started :  3001","timestamp":"2018-10-25T09:48:09.417Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2018-10-25T09:48:09.439Z"}
+{"level":"info","message":"Server started :  3001","timestamp":"2018-10-25T09:48:25.973Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2018-10-25T09:48:25.992Z"}
+{"level":"info","message":"Server started :  3001","timestamp":"2018-10-25T09:49:15.772Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2018-10-25T09:49:15.785Z"}
