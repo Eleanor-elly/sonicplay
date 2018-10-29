@@ -57,9 +57,6 @@ ContentsModel.chargeUseClips = () =>{
     return ContentsModel.find({amount : {'$gt' : 0}, status : 'use', type : 'single'})
 };
 
-ContentsModel.getClipInfo = (clipId) =>{
-    return ContentsModel.find({_id : clipId});
-};
 
 ContentsModel.getAllClips = () =>{
     return ContentsModel.find({type : 'single'});
@@ -129,6 +126,24 @@ ContentsModel.editPackage =
             salesVol : salesVol
         }
     });
+};
+
+ContentsModel.getContents = (type, charged) =>{
+    if(type === null){
+        return ContentsModel.find({status : 'use', amount : { [charged] : 0}},
+            {"clipInfo.filePath" : false, "subProduct.filePath" : false, "clipInfo.fileName" : false, "subProduct.fileName" : false});
+    }else{
+        return ContentsModel.find({status : 'use', type : type , amount : { [charged] : 0}},
+            {"clipInfo.filePath" : false, "subProduct.filePath" : false, "clipInfo.fileName" : false, "subProduct.fileName" : false});
+    }
+};
+
+ContentsModel.getClipInfo = (clipId) =>{
+    return ContentsModel.find({_id : clipId},{"clipInfo.filePath" : false, "subProduct.filePath" : false, "clipInfo.fileName" : false, "subProduct.fileName" : false});
+};
+
+ContentsModel.getUris = (clipId) =>{
+    return ContentsModel.find({_id : clipId}, {clipInfo : true, subProduct : true});
 };
 
 export default ContentsModel;

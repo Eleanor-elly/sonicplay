@@ -8,6 +8,7 @@ import config from './core/config/config'
 import connectToDb from "./db/connect";
 import boardRoute from './routes/board.route'
 import contentsRoute from './routes/contents.route'
+import userRoute from './routes/user.route'
 
 const port = config.serverPort;
 logger.stream = {
@@ -37,6 +38,8 @@ app.get('/index', (req, res)=>{
 
 app.use('/contents', contentsRoute);
 app.use('/board', boardRoute);
+app.use('/user', userRoute);
+
 
 app.listen(port, () => {
     logger.info('Server started : ', port);

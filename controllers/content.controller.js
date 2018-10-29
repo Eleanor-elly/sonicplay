@@ -17,7 +17,7 @@ controller.addClip = async (req, res) =>{
         clipInfo : [
             {
                 title : req.file.originalname,
-                duration : '3:04', //TODO 하드코딩
+                duration : req.body.duration,
                 fileName : req.file.filename,
                 fileType : req.file.mimetype,
                 fileSize : req.file.size,
@@ -89,7 +89,7 @@ controller.editClip = async (req, res)=>{
 };
 
 //
-controller.getClips = async (req, res)=>{
+controller.getUseableClips = async (req, res)=>{
     let result = [];
     try{
         let clips = await Contents.allUseClips();
@@ -105,7 +105,7 @@ controller.getClips = async (req, res)=>{
 };
 
 //
-controller.getFreeClips = async (req, res)=>{
+controller.freeUseableClips = async (req, res)=>{
     let result = [];
     try{
         let freeClips = await Contents.freeUseClips();
@@ -121,7 +121,7 @@ controller.getFreeClips = async (req, res)=>{
 };
 
 //
-controller.getChargeClips = async (req, res)=>{
+controller.chargedUseableClips = async (req, res)=>{
     let result = [];
     try{
         let chargeClips = await Contents.chargeUseClips();
@@ -137,8 +137,9 @@ controller.getChargeClips = async (req, res)=>{
 };
 
 //
-controller.getClip = async (req, res)=>{
-    let clipId = req.params.clipId;
+controller.getClipInfo = async (req, res)=>{
+    let clipId = req.body.clipId;
+    console.log(clipId);
     let result = [];
     try{
         let clipInfo = await Contents.getClipInfo(clipId);
@@ -379,4 +380,53 @@ controller.editPackage = async (req, res)=>{
     }
 };
 
+controller.getContents = async (req, res)=>{
+    let result = [];
+    let typeParam = req.body.type;
+    let types;
+    let chargedParam = req.body.charged;
+    let charged;
+    if(typeParam === 'single'){
+        types = 'clip';
+    }else if (typeParam === 'package') {
+        types = 'package'
+    }else {
+        types = null;
+    }
+
+    if(chargedParam === 'yes'){
+        charged = '$gt'
+    }else if(chargedParam === 'no') {
+        charged = '$eq'
+    }else {
+        charged = '$gte'
+    }
+    try{
+        let contents = await Contents.getContents(types, charged);
+        logger.info('Find contents - ');
+        result.push({result : 'success', contents});
+        res.send(result);
+    }catch (e) {
+        logger.error('Error occur finding contents');
+        console.log(e);
+        result.push({result : 'fail', message : e});
+        res.send(result);
+    }
+};
+
+controller.getUri = async (req, res)=>{
+    let result = [];
+    let clipId = req.body.clipId;
+    try{
+        let contents = await Contents.getUris(clipId);
+        logger.info('Find uri - ');
+        result.push({result : 'success', contents});
+        res.send(result);
+    }catch (e) {
+        logger.error('Erro occur finding uri - ');
+        console.log(e);
+        result.push({result : 'fail', message : e});
+        res.send(result);
+    }
+};
 export default controller;

@@ -1,8 +1,6 @@
 import contentController from '../controllers/content.controller'
 import express from 'express'
 import multer from 'multer'
-import uuidv4 from 'uuid/v4'
-import path from 'path'
 
 let upload = multer({dest : 'uploads/contents/'});
 //
@@ -27,33 +25,35 @@ router.post('/test',upload.single('contents'), (req, res)=>{
     contentController.test(req, res, info);
 }); //test
 
+router.get('/testparam/:type/:charged', (req, res)=>{
+    console.log(req.params);
+
+    res.send(req.params);
+});
+
 router.post('/clip', upload.single('contents'), (req, res)=>{
     contentController.addClip(req, res);
 }); //단일컨텐츠 추가
 
-router.post('/clipdel', (req, res)=>{
+router.post('/delclip', (req, res)=>{
     contentController.delClip(req, res);
 }); //단일컨텐츠 삭제
 
-router.post('/clipedit', (req, res)=>{
+router.post('/editclip', (req, res)=>{
     contentController.editClip(req, res)
 }); //단일컨텐츠 수정
 
 router.get('/clips', (req, res)=>{
-    contentController.getClips(req, res)
+    contentController.getUseableClips(req, res)
 }); //단일컨텐츠 모든 목록
 
-router.get('/clipfree', (req, res)=>{
-    contentController.getFreeClips(req, res)
+router.get('/freeclips', (req, res)=>{
+    contentController.freeUseableClips(req, res)
 }); //단일컨텐츠 무료 목록
 
-router.get('/clipcharge', (req, res)=>{
-    contentController.getChargeClips(req, res)
+router.get('/chargedclips', (req, res)=>{
+    contentController.chargedUseableClips(req, res)
 }); //단일컨텐츠 유료 목록
-
-router.get('/clip/:clipId', (req, res)=>{
-    contentController.getClip(req, res)
-}); //단일컨텐츠 해당 컨텐츠 정보
 
 router.get('/allclips', (req, res)=>{
     contentController.getAllClips(req, res);
@@ -95,6 +95,23 @@ router.get('/package/:packageId', (req, res)=>{
 
 router.get('/allpackages', (req, res)=>{
     contentController.getAllPackages(req, res);
+});
+
+
+
+//사용중인 모든 컨텐츠 (single, package)의 목록
+router.post('/', (req, res)=>{
+    contentController.getContents(req, res);
+});
+
+//컨텐츠의 해당 정보
+router.post('/info', (req, res)=>{
+    contentController.getClipInfo(req, res)
+});
+
+//컨텐츠의 위치정보 (구매하기 이후)
+router.post('/geturi', (req, res)=>{
+    contentController.getUri(req, res)
 });
 
 export default router;
