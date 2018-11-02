@@ -61,3 +61,4 @@ UsersModel.addPurchase = (email, purchases)=>{
 
 
 export default UsersModel;
+

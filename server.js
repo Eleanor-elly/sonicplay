@@ -5,10 +5,14 @@ import cors from 'cors'
 import morgan from 'morgan'
 
 import config from './core/config/config'
-import connectToDb from "./db/connect";
+import connectToDb from "./db/connect"
+
 import boardRoute from './routes/board.route'
 import contentsRoute from './routes/contents.route'
 import userRoute from './routes/user.route'
+import homeRoute from './routes/home.route'
+import demoRoute from './routes/demo.route'
+import advideoRoute from './routes/advideo.route'
 
 const port = config.serverPort;
 logger.stream = {
@@ -39,7 +43,9 @@ app.get('/index', (req, res)=>{
 app.use('/contents', contentsRoute);
 app.use('/board', boardRoute);
 app.use('/user', userRoute);
-
+app.use('/home', homeRoute);
+app.use('/demo', demoRoute);
+app.use('/ad', advideoRoute);
 
 app.listen(port, () => {
     logger.info('Server started : ', port);
