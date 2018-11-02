@@ -1,5 +1,8 @@
 import Contents from '../models/contents.model'
 import logger from '../core/logger/app-logger'
+import mime from 'mime'
+import fs from 'fs'
+
 const controller = {};
 
 
@@ -419,8 +422,13 @@ controller.getUri = async (req, res)=>{
     let clipId = req.body.clipId;
     try{
         let contents = await Contents.getUris(clipId);
-        logger.info('Find uri - ');
-        result.push({result : 'success', contents});
+
+        let dirname = __dirname.substring(0,__dirname.lastIndexOf("/")+1);
+        let filePath = dirname + 'uploads/contents';
+        let fileServerName = contents[0].clipInfo[0].fileName;
+        let file = filePath + '/' + fileServerName;
+
+        result.push({result : 'success', Uri : file});
         res.send(result);
     }catch (e) {
         logger.error('Erro occur finding uri - ');
@@ -428,5 +436,11 @@ controller.getUri = async (req, res)=>{
         result.push({result : 'fail', message : e});
         res.send(result);
     }
+};
+
+controller.downloads = async (req, res)=>{
+
+
+
 };
 export default controller;

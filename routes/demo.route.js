@@ -1,4 +1,5 @@
 import express from 'express';
+import demoController from '../routes/demo.route'
 
 const router = express.Router();
 

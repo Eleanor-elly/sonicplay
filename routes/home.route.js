@@ -1,5 +1,6 @@
 import express from 'express'
 import multer from 'multer'
+import homeController from '../routes/home.route'
 
 let upload = multer({dest : 'uploads/banner/'});
 

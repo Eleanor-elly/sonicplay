@@ -1,6 +1,9 @@
 import contentController from '../controllers/content.controller'
 import express from 'express'
 import multer from 'multer'
+import fs from 'fs'
+import Contents from "../models/contents.model";
+import logger from "../core/logger/app-logger";
 
 let upload = multer({dest : 'uploads/contents/'});
 //
@@ -114,4 +117,30 @@ router.post('/geturi', (req, res)=>{
     contentController.getUri(req, res)
 });
 
+router.get('/download/:clipId', async (req, res)=>{
+    let clipId = req.params.clipId;
+    try{
+        let contents = await Contents.getUris(clipId);
+
+        let fileName = contents[0].clipInfo[0].title; //원본파일명
+        let dirname = __dirname.substring(0,__dirname.lastIndexOf("/")+1);
+        let filePath = dirname + 'uploads/contents';
+        let fileServerName = contents[0].clipInfo[0].fileName;
+        let file = filePath + '/' + fileServerName;
+
+        res.download(file,fileName);
+    }catch (e) {
+        logger.error('Erro occur finding file - ');
+        console.log(e);
+        result.push({result : 'fail', message : e});
+        res.send(result);
+    }
+});
+
+router.get('/test/test', (req, res)=>{
+    fs.readFile('./downloadtest.html', (error, data)=>{
+        res.writeHead(200, {'Content-Type':'text/html'});
+        res.end(data);
+    })
+});
 export default router;

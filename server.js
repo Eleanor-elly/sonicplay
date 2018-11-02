@@ -32,8 +32,8 @@ app.use((req, res, next)=>{
 });
 
 app.use(cors());
-app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({ extended: true }));
+app.use(bodyParser.json({limit : '500mb'}));
+app.use(bodyParser.urlencoded({ limit : '500mb', extended: true }));
 app.use(morgan("dev", { "stream": logger.stream }));
 
 app.get('/index', (req, res)=>{
