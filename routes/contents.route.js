@@ -2,18 +2,55 @@ import contentController from '../controllers/content.controller'
 import express from 'express'
 import multer from 'multer'
 import fs from 'fs'
-import Contents from "../models/contents.model";
-import logger from "../core/logger/app-logger";
+import Contents from "../models/contents.model"
+import logger from "../core/logger/app-logger"
+import Thumbnail from 'thumbnail'
+import thumb from 'node-thumbnail'
+
 
 let upload = multer({dest : 'uploads/contents/'});
-//
-// let storage = multer.dickStorage({
-//     destination : (req, file, cb)=>{
-//         cb(null, './uploads/contents')
-//     }
-// });
 
 const router = express.Router();
+
+
+router.get('/free', (req, res)=>{
+    contentController.getFree(req, res);
+});
+
+router.get('/charge', (req, res)=>{
+    contentController.getCharge(req, res);
+});
+
+router.get('/popular', (req, res)=>{
+    contentController.getPopular(req, res);
+});
+
+router.get('/all', (req, res)=>{
+    contentController.getAll(req, res);
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* single contents method*/
 
@@ -40,7 +77,7 @@ router.post('/clip', upload.single('contents'), (req, res)=>{
 
 router.post('/delclip', (req, res)=>{
     contentController.delClip(req, res);
-}); //단일컨텐츠 삭제
+}); //단일컨텐츠 완전삭제
 
 router.post('/editclip', (req, res)=>{
     contentController.editClip(req, res)
@@ -117,6 +154,11 @@ router.post('/geturi', (req, res)=>{
     contentController.getUri(req, res)
 });
 
+router.get('/popular', (req, res)=>{
+    contentController.getPopular(req, res);
+});
+
+
 router.get('/download/:clipId', async (req, res)=>{
     let clipId = req.params.clipId;
     try{
@@ -137,10 +179,19 @@ router.get('/download/:clipId', async (req, res)=>{
     }
 });
 
-router.get('/test/test', (req, res)=>{
+router.get('/test/download', (req, res)=>{
     fs.readFile('./downloadtest.html', (error, data)=>{
         res.writeHead(200, {'Content-Type':'text/html'});
         res.end(data);
     })
 });
+
+router.get('/test/upload', (req, res)=>{
+    fs.readFile('./test.html', (error, data)=>{
+        res.writeHead(200, {'Content-Type' : 'text/html'});
+        res.end(data);
+    })
+});
+
+
 export default router;

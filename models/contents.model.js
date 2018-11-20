@@ -35,10 +35,36 @@ const ContentsSchema = mongoose.Schema({
 
 let ContentsModel = mongoose.model('contents', ContentsSchema);
 
+ContentsModel.getFree = () =>{
+    return ContentsModel.find({status : 'use', amount : 0})
+};
+
+ContentsModel.getCharge = () =>{
+    return ContentsModel.find({status : 'use', amount : {$gt : 0}},{clipInfo : false, subProduct : false})
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* single contents method*/
 ContentsModel.addClip = (contents) =>{
     return contents.save();
+};
+
+ContentsModel.clipFileInfo = (clipId) =>{
+    return ContentsModel.find({_id : clipId},{_id:false, clipInfo : true})
 };
 
 ContentsModel.delClip = (clipId) =>{
@@ -139,11 +165,20 @@ ContentsModel.getContents = (type, charged) =>{
 };
 
 ContentsModel.getClipInfo = (clipId) =>{
-    return ContentsModel.find({_id : clipId},{"clipInfo.filePath" : false, "subProduct.filePath" : false, "clipInfo.fileName" : false, "subProduct.fileName" : false});
+    return ContentsModel.find({_id : {$in : clipId}},{"clipInfo.filePath" : false, "subProduct.filePath" : false, "clipInfo.fileName" : false, "subProduct.fileName" : false});
 };
 
 ContentsModel.getUris = (clipId) =>{
     return ContentsModel.find({_id : clipId}, {clipInfo : true, subProduct : true});
 };
+
+ContentsModel.getPopular = () =>{
+    return ContentsModel.find({status : 'use'},{clipInfo : false, subProduct : false}).sort({download : -1});
+};
+
+ContentsModel.getAll = () =>{
+    return ContentsModel.find({status : 'use'},{})
+};
+
 
 export default ContentsModel;

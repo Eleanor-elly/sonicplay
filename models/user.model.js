@@ -7,32 +7,28 @@ const UserSchema = mongoose.Schema({
     userID : {type : String}, //email
     userPassword : {type : String}, //salt를 이용해 변형 한 값
     userSalt : {type : String},
-    phoneVerified : {type : String},
+    phoneVerified : {type : String, default : 'No'},
     phone : {type : String},
     status : {type : String, default : 'normal'},
-    activityLog : [
+    subInfo : [
         new mongoose.Schema({
-            purchase : [
-                new mongoose.Schema({
-                    contentsID : {type : String},
-                    date : {type : String, default : moment().format('YYYY.MM.DD')}
-                }, {_id : false})
-            ],
-           loginLog : [
-               new mongoose.Schema({
-                   os : {type : String},
-                   ip : {type : String},
-                   date : {type : String, default : moment().format('YYYY.MM.DD')}
-               }, {_id : false})
-           ],
-            statusLog : [
-                new mongoose.Schema({
-                    status : {type : String},
-                    date : {type : String, default : moment().format('YYYY.MM.DD')}
-                }, {_id : false})
-            ]
+            marketing : {type : String}
         })
     ],
+    loginLog : [
+        new mongoose.Schema({
+            os : {type : String},
+            ip : {type : String},
+            date : {type : String, default : moment().format('YYYY.MM.DD HH:mm')}
+        }, {_id : false})
+    ],
+    statusLog : [
+        new mongoose.Schema({
+            status : {type : String},
+            date : {type : String, default : moment().format('YYYY.MM.DD HH:mm')}
+        }, {_id : false})
+    ],
+
     uuid : {type : String},
     clientID : {type : String},
     token : {type : String},
@@ -58,6 +54,17 @@ UsersModel.addPurchase = (email, purchases)=>{
     })
 };
 
+UsersModel.addLoginLog = (email, os, ip) =>{
+    return UsersModel.update({userID : email},
+        { $push : { loginLog : {os : os, ip : ip}}
+    })
+};
+
+UsersModel.addStatusLog = (email, status)=> {
+    return UsersModel.update({userID: email},
+        { $push: {statusLog: {status: status}}
+    })
+};
 
 
 export default UsersModel;

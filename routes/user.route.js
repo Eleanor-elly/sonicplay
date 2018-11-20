@@ -17,4 +17,8 @@ router.post('/addpurchase', (req, res)=>{
     userController.addPurchase(req, res)
 });
 
+router.post('/addloginlog', (req, res) =>{
+    userController.addLoginLog(req, res);
+});
+
 export default router;

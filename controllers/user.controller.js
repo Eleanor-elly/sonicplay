@@ -1,6 +1,7 @@
 import Users from '../models/user.model'
 import logger from '../core/logger/app-logger'
 import crypto from "crypto";
+import moment from 'moment'
 const controller = {};
 
 controller.join = async (req, res)=>{
@@ -18,22 +19,17 @@ controller.join = async (req, res)=>{
         phoneVerified : req.body.phoneVerified,
         phone : req.body.phone,
         status : req.body.status,
-        activityLog : [
-            ({
-                loginLog : [
-               ({
-                        os : req.body.os,
-                        ip : req.body.ip,
-                        date : req.body.date
-                        }, {_id : false})
-                ],
-                statusLog : [({
-                        status : req.body.statusLog,
-                        date : req.body.date
-                    }, {_id : false})
-                ]
-            })
-        ],
+        loginLog :
+            {
+                os : req.body.os,
+                ip : req.body.ip,
+                date : req.body.date
+            },
+        statusLog :
+            {
+                status : req.body.statusLog,
+                date : req.body.date
+            },
         uuid : req.body.uuid,
         clientID : req.body.clientID,
         token : req.body.token,
@@ -99,4 +95,25 @@ controller.addPurchase = async (req, res)=>{
         res.send(result);
     }
 };
+
+controller.addLoginLog = async (req, res)=>{
+    let email = req.body.userID;
+    let result = [];
+    let os = req.body.os;
+    let ip = req.body.ip;
+    try{
+        console.log(os);
+        console.log(ip);
+        let adding = await Users.addLoginLog(email, os, ip);
+        logger.info('Adding Login log');
+        result.push({result : 'success', adding});
+        res.send(result);
+    }catch (e) {
+        logger.error('Error occur adding login log');
+        console.log(e);
+        result.push({result :'failed', message : e});
+        res.send(result)
+    }
+};
+
 export default controller;

@@ -5,7 +5,14 @@ const BoardSchema = mongoose.Schema({
     type : {type : String},
     title : {type : String},
     contents : {type : String},
-    attach : [{type : String}],
+    attach : [
+        new mongoose.Schema({
+            fileName : {type : String},
+            filePath : {type : String},
+            fileType : {type : String},
+            fileOriginalName : {type : String}
+        })
+    ],
     regDate : {type : String, default : moment().format('YYYY.MM.DD')},
     status : {type : String},
     process : {type : String},
@@ -25,7 +32,9 @@ const BoardSchema = mongoose.Schema({
 
 let BoardModel = {};
 
-
+BoardModel.addPost =(post)=> {
+    return post.save();
+};
 
 
 export default BoardModel;
