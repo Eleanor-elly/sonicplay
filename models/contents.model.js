@@ -169,7 +169,7 @@ ContentsModel.getClipInfo = (clipId) =>{
 };
 
 ContentsModel.getUris = (clipId) =>{
-    return ContentsModel.find({_id : clipId}, {clipInfo : true, subProduct : true});
+    return ContentsModel.find({_id : clipId}, {type : true, productName : true, clipInfo : true, subProduct : true});
 };
 
 ContentsModel.getPopular = () =>{

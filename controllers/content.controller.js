@@ -92,6 +92,44 @@ controller.getAll = async (req, res) =>{
     }
 };
 
+controller.getUri = async (req, res)=>{
+    let result = [];
+    let clipId = req.body.clipId;
+    console.log(clipId);
+    try{
+        let contents = await Contents.getUris(clipId);
+        let dirname = __dirname.substring(0,__dirname.lastIndexOf("/")+1);
+        console.log(dirname);
+
+        let and = contents.map((obj)=>{
+            let info = {};
+
+            if(obj.type == "single"){
+                info = {productName : obj.productName,
+                    url : dirname+obj.clipInfo[0].filePath,
+                    fileName : obj.clipInfo[0].title};
+            }else {
+                info = {productName : obj.productName,
+                    url : dirname + obj.subProduct[0].filePath,
+                    fileName : obj.subProduct[0].title}
+            }
+
+
+            return info;
+        });
+
+        console.log(and);
+        result.push({result : 'success', url :  and});
+        res.send(result);
+    }catch (e) {
+        logger.error('Error occur finding uri - ');
+        console.log(e);
+        result.push({result : 'fail', message : e});
+        res.send(result);
+    }
+};
+
+
 
 
 
@@ -572,32 +610,7 @@ controller.getContents = async (req, res)=>{
     }
 };
 
-controller.getUri = async (req, res)=>{
-    let result = [];
-    let clipId = req.body.clipId;
-    console.log(clipId);
-    try{
-        let contents = await Contents.getUris(clipId);
-        let dirname = __dirname.substring(0,__dirname.lastIndexOf("/")+1);
-        console.log(dirname);
 
-        let and = contents.map((obj)=>{
-           let info = {};
-           info = {title : obj.clipInfo[0].title,
-               url : dirname+obj.clipInfo[0].filePath};
-           return info;
-        });
-
-        console.log(and);
-        result.push({result : 'success', url :  and});
-        res.send(result);
-    }catch (e) {
-        logger.error('Error occur finding uri - ');
-        console.log(e);
-        result.push({result : 'fail', message : e});
-        res.send(result);
-    }
-};
 
 controller.downloads = async (req, res)=>{
 
