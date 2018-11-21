@@ -13,6 +13,7 @@ import userRoute from './routes/user.route'
 import homeRoute from './routes/home.route'
 import demoRoute from './routes/demo.route'
 import advideoRoute from './routes/advideo.route'
+import category from './routes/category.route'
 
 const port = config.serverPort;
 logger.stream = {
@@ -42,10 +43,11 @@ app.get('/index', (req, res)=>{
 
 app.use('/contents', contentsRoute);
 app.use('/board', boardRoute);
-app.use('/user', userRoute);
+app.use('/users', userRoute);
 app.use('/home', homeRoute);
 app.use('/demo', demoRoute);
 app.use('/ad', advideoRoute);
+app.use('/category', category);
 
 app.listen(port, () => {
     logger.info('Server started : ', port);

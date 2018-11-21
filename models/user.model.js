@@ -10,11 +10,8 @@ const UserSchema = mongoose.Schema({
     phoneVerified : {type : String, default : 'No'},
     phone : {type : String},
     status : {type : String, default : 'normal'},
-    subInfo : [
-        new mongoose.Schema({
-            marketing : {type : String}
-        })
-    ],
+    marketing : {type : String},
+    newContentsPush : {type : String},
     loginLog : [
         new mongoose.Schema({
             os : {type : String},

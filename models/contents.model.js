@@ -21,6 +21,7 @@ const ContentsSchema = mongoose.Schema({
     download : {type : Number, default : 0},
     status : {type : String},
     regDate : {type : String, default : moment().format('YYYY.MM.DD')},
+    zipPath : {type : String},
     subProduct : [
         new mongoose.Schema({
             title : {type : String},
