@@ -4,8 +4,6 @@ import multer from 'multer'
 import fs from 'fs'
 import Contents from "../models/contents.model"
 import logger from "../core/logger/app-logger"
-import Thumbnail from 'thumbnail'
-import thumb from 'node-thumbnail'
 
 
 let upload = multer({dest : 'uploads/contents/'});

@@ -164,3 +164,7 @@
 {"level":"info","message":"Connected to MongoDB","timestamp":"2018-10-29T07:36:27.218Z"}
 {"level":"info","message":"Server started :  3001","timestamp":"2018-10-29T07:42:03.328Z"}
 {"level":"info","message":"Connected to MongoDB","timestamp":"2018-10-29T07:42:03.341Z"}
+{"level":"info","message":"Server started :  3001","timestamp":"2018-10-29T08:49:19.514Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2018-10-29T08:49:19.531Z"}
+{"level":"info","message":"Server started :  3001","timestamp":"2018-10-29T09:42:27.679Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2018-10-29T09:42:27.693Z"}
