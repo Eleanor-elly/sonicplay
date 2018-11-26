@@ -1,5 +1,6 @@
 import mongoose from 'mongoose'
 import moment from 'moment'
+import logger from '../core/logger/app-logger'
 
 const ContentsSchema = mongoose.Schema({
     clipInfo : [
@@ -37,7 +38,7 @@ const ContentsSchema = mongoose.Schema({
 let ContentsModel = mongoose.model('contents', ContentsSchema);
 
 ContentsModel.getFree = () =>{
-    console.log('model _ get free');
+    logger.info('in free contents');
     return ContentsModel.find({status : 'use', amount : 0})
 };
 

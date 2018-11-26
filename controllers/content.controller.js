@@ -18,6 +18,9 @@ controller.getFree = async (req, res) =>{
         logger.info('Selecting Free Contents');
 
         let dirname = __dirname.substring(0,__dirname.lastIndexOf("/")+1);
+        logger.info('dirname : ' + dirname);
+
+        
         freeContents.forEach((contents)=>{
             if(contents.type == "single"){
                 let path = contents.clipInfo[0].filePath;
