@@ -37,6 +37,7 @@ const ContentsSchema = mongoose.Schema({
 let ContentsModel = mongoose.model('contents', ContentsSchema);
 
 ContentsModel.getFree = () =>{
+    console.log('model _ get free');
     return ContentsModel.find({status : 'use', amount : 0})
 };
 

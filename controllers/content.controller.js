@@ -12,6 +12,7 @@ const controller = {};
 
 controller.getFree = async (req, res) =>{
     let result = [];
+    console.log('_in get free');
     try{
         let freeContents = await Contents.getFree();
         logger.info('Selecting Free Contents');
