@@ -20,9 +20,10 @@ controller.getFree = async (req, res) =>{
         let dirname = __dirname.substring(0,__dirname.lastIndexOf("/")+1);
         logger.info('dirname : ' + dirname);
 
-        
+
         freeContents.forEach((contents)=>{
             if(contents.type == "single"){
+                logger.info('...foreach....!!!!');
                 let path = contents.clipInfo[0].filePath;
                 contents.clipInfo[0].filePath = dirname + path;
             }else {
