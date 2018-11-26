@@ -151,7 +151,6 @@ controller.test = async (req, res, info) =>{
 
 //
 controller.addClip = async (req, res) =>{
-    console.log('gg');
     let result = [];
     let dirname = __dirname.substring(0,__dirname.lastIndexOf("/")+1);
     console.log(dirname);
