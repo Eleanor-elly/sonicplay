@@ -49,9 +49,9 @@ CategoryModel.editClipCount = (categoryId, clipCount) =>{
 
 //임시삭제상태
 CategoryModel.editStatus = (categoryId) =>{
-    return CategoryModel.update({
-        $set : {
-            status : 'delete'
+    return CategoryModel.update({_id : categoryId},{
+        $set: {
+            status: 'delete'
         }
     })
 };

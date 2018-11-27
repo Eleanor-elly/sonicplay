@@ -58,6 +58,19 @@ controller.getCategories = async (req, res)=>{
 };
 
 
+controller.delCategory = async (req, res)=>{
+    let result = [];
+    let categoryId = req.body.categoryId;
+    try{
+        let result = await Category.editStatus(categoryId);
+
+    }catch (e) {
+        logger.error('Error occur deleting category');
+        console.log(e);
+        result.push({result : 'fail', message : e});
+        res.send(result);
+    }
+};
 
 /*
 
@@ -73,5 +86,7 @@ controller.getCategories = async (req, res)=>{
 이 부분은 클립 추가/삭제 프로세스가 일어나면서 같이 되야하는 부분이므로, 컨텐츠쪽에서 작성
 
 */
+
+
 
 export default controller;

@@ -33,6 +33,9 @@ controller.join = async (req, res)=>{
         uuid : req.body.uuid,
         clientID : req.body.clientID,
         token : req.body.token,
+        newContentsPush : req.body.newContentsPush,
+        smsPush : req.body.smsPush,
+        emailPush : req.body.emailPush,
         regDate : req.body.regDate
     });
 

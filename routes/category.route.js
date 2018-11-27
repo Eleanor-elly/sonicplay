@@ -10,4 +10,17 @@ router.get('/', (req, res)=>{
 router.post('/', (req, res)=>{
     CategoryController.addCategory(req, res)
 });
+
+router.post('/edit', (req, res)=>{
+    CategoryController.editCategory(req, res)
+});
+
+router.post('/del', (req, res)=>{
+    CategoryController.delCategory(req, res)
+});
+
+router.post('/remove', (req, res)=>{
+    CategoryController.removeCategory(req, res)
+});
+
 export default router;
